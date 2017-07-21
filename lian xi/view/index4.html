@@ -1,0 +1,94 @@
+<div class="swiper-container1">
+    <ul class="swiper-wrapper">
+        <li class="swiper-slide" ng-repeat="item in arr.aside1">
+            <img ng-src="img/{{item.src}}" width="100%">
+        </li>
+    </ul>
+    <div class="swiper-pagination"></div>
+</div>
+
+<div class="tubiao">
+    <ul>
+        <li ng-repeat="item in arr.tubiao">
+            <img ng-src="img/{{item.src}}">
+        </li>
+    </ul>
+</div>
+
+<div class="title">
+    <img src="img/免税店_07.png">
+    <h2>今日特惠</h2>
+</div>
+<div ng-repeat="item in arr.aside2" class="aside2">
+    <img ng-src="img/{{item.src}}" width="40%">
+    <div class="right">
+        <div class="top">
+            <p class="p1"><span>{{item.wen1}}</span>/</p>
+            <p class="p2">{{item.wen2}}</p>
+            <p class="p3">{{item.wen3}}</p>
+        </div>
+        <div class="bottom">
+            <p><span class="sp1">{{item.p}}</span><span class="sp2">{{item.sp}}</span>
+                <del>{{item.del}}</del>
+            </p>
+            <div>{{item.div}}</div>
+        </div>
+    </div>
+</div>
+<div class="title">
+    <img src="img/免税店_07.png">
+    <h2>活动推荐</h2>
+</div>
+<img src="img/图%20(3).jpg" width="100%" style="margin-bottom: 1rem">
+<div class="title">
+    <img src="img/免税店_07.png">
+    <h2>今日热销品牌</h2>
+</div>
+<img src="img/图%20(4).jpg" width="100%">
+<div class="div">
+    <img src="img/图%20(5).jpg" width="50%">
+    <img src="img/图%20(6).jpg" width="50%">
+</div>
+<div class="title2">
+    <div>
+        <img src="img/特卖_30.png">
+        <h2>今日10点上新</h2>
+    </div>
+    <div>
+        <img src="img/特卖_32.png">
+        <h2>明日10点预告</h2>
+    </div>
+</div>
+<img src="img/图%20(7).jpg" width="100%">
+<div class="swiper-container">
+    <ul class="swiper-wrapper">
+        <li class="swiper-slide" ng-repeat="item in arr.aside3" style="padding: 0 0.7rem">
+            <div style="text-align: center"><img ng-src="img/{{item.src}}" width="80%"></div>
+            <p class="p4">{{item.p}}</p>
+            <span style="margin-top: 1rem">{{item.sp}}<del>{{item.del}}</del></span>
+        </li>
+    </ul>
+</div>
+<img src="img/图%20(11).jpg" width="100%">
+<div class="swiper-container">
+    <ul class="swiper-wrapper">
+        <li class="swiper-slide" ng-repeat="item in arr.aside4" style="padding: 0 0.7rem">
+            <div style="text-align: center;padding: 0.8rem 0"><img ng-src="img/{{item.src}}" width="80%"></div>
+            <p class="p4">{{item.p}}</p>
+            <span style="margin-top: 1rem;">{{item.sp}}<del>{{item.del}}</del></span>
+        </li>
+    </ul>
+</div>
+<img src="img/图%20(1).jpg" width="100%">
+
+<div class="swiper-container">
+    <ul class="swiper-wrapper">
+        <li class="swiper-slide" ng-repeat="item in arr.aside5" style="padding: 1rem 0.7rem">
+            <div style="text-align: center"><img ng-src="img/{{item.src}}" width="100%"></div>
+            <p class="p4">{{item.p}}</p>
+            <p class="p5" style="margin-top: 1rem;"><span>{{item.sp}}</span>
+                <del>{{item.del}}</del>
+            </p>
+        </li>
+    </ul>
+</div>

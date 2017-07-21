@@ -1,0 +1,77 @@
+<div class="item1">
+    <ul>
+        <li ng-repeat="item in arr.item1">
+            <img ng-src="img/{{item.src}}">
+        </li>
+    </ul>
+</div>
+<div class="item2">
+    <ul>
+        <li ng-repeat="item in arr.item2">
+            <p>{{item.wen}}</p>
+            <img ng-src="img/{{item.src}}">
+        </li>
+    </ul>
+</div>
+<div class="title">
+    <img src="img/免税店_07.png">
+    <h2>每日十点 限时特价</h2>
+</div>
+<div class="item3">
+    <ul>
+        <li ng-repeat="item in arr.item3">
+            <img ng-src="img/{{item.src}}" class="img">
+            <div class="right">
+                <p class="p1">{{item.wen}}</p>
+                <div class="bottom">
+                    <div class="left">
+                        <p class="sp"><span class="sp1">¥</span>{{item.span1}}</p>
+                        <p>{{item.span2}}</p>
+                    </div>
+                    <img ng-src="img/{{item.img}}">
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="title">
+    <img src="img/免税店_07.png">
+    <h2>全球品牌旗舰店</h2>
+</div>
+<div class="item4">
+    <ul>
+        <li ng-repeat="item in arr.item4">
+            <img ng-src="img/{{item.src}}">
+        </li>
+    </ul>
+</div>
+<div class="title2">
+    <div>
+        <img src="img/特卖_30.png">
+        <h2>今日10点上新</h2>
+    </div>
+    <div>
+        <img src="img/特卖_32.png">
+        <h2>明日10点预告</h2>
+    </div>
+</div>
+<img src="img/banner%20(1).jpg" width="100%">
+<div class="swiper-container" id="item5">
+    <ul class="swiper-wrapper">
+        <li class="swiper-slide" ng-repeat="item in arr.item5" style="padding: 0 0.7rem">
+            <img ng-src="img/{{item.src}}">
+            <p>{{item.wen}}</p>
+            <span>{{item.jia}}</span>
+        </li>
+    </ul>
+</div>
+<img src="img/banner%20(2).jpg" width="100%">
+<div class="swiper-container" id="item6">
+    <ul class="swiper-wrapper">
+        <li class="swiper-slide" ng-repeat="item in arr.item6" style="padding: 0 0.7rem">
+            <img ng-src="img/{{item.src}}">
+            <p>{{item.wen}}</p>
+            <span>{{item.jia}}</span>
+        </li>
+    </ul>
+</div>

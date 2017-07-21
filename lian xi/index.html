@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="Swiper-3.4.2/dist/css/swiper.min.css">
+</head>
+<body ng-controller="ctrl">
+<div class="box">
+    <div class="head">
+        <header>
+            <img src="img/特卖_03.png" width="30px">
+            <!--<img src="img/特卖_08.png" class="img" width="5%">-->
+            <div class="inp">
+                <input type="text" placeholder="搜索产品 分类 功效 用户">
+            </div>
+            <img src="img/特卖_05.png" width="30px">
+        </header>
+        <ul class="tap">
+            <li class="li1"><a href="#/">特卖</a></li>
+            <li><a href="#/one">极速免税店</a></li>
+            <li><a href="#/two">母婴</a></li>
+            <li><a href="#/three">轻奢</a></li>
+            <li><a href="#/four">服饰</a></li>
+            <li><a href="#/five">鞋包</a></li>
+            <li><a href="#/six">食品</a></li>
+        </ul>
+    </div>
+    <!--<div id="wrapper">-->
+        <div class="content">
+            <ng-view></ng-view>
+        </div>
+    <!--</div>-->
+    <footer>
+        <ul>
+            <li class="li ">
+                <a href="#">
+                    <img src="img/特卖_aa.png"><br>首页
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/特卖_bb.png"><br>名品特卖
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/特卖_cc.png"><br>直播社区
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/特卖_dd.png"><br>购物车
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/特卖_ee.png"><br>我的
+                </a>
+            </li>
+        </ul>
+    </footer>
+</div>
+</body>
+<script src="../Swiper-3.4.2/dist/js/swiper.min.js"></script>
+<!--<script src="../iscroll.js"></script>-->
+<script>
+//    var myScroll = new IScroll("#wrapper", {
+//        probeType: 10,
+//        mouseWheel: true,
+//        scrollbars: true
+//    })
+</script>
+</html>
+<script src="js/angular.min.js"></script>
+<script src="js/angular-route1.4.5.js"></script>
+<script src="js/jquery-3.1.1.js"></script>
+<script src="路由.js"></script>
